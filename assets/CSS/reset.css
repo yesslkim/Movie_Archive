@@ -19,12 +19,21 @@ button {
   cursor: pointer;
   outline: none;
 }
+
 /* font  */
+@font-face {
+  font-family: 'UhBeeSeulvely';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeSeulvely.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body,
 input,
-button {
-  font-family: 'Poppins', 'Nanum Gothic', sans-serif;
+button,
+q::before,
+q::after {
+  font-family: 'UhBeeSeulvely', sans-serif;
 }
 
 /* common  */
