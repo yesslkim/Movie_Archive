@@ -90,6 +90,11 @@
   margin-bottom: 10px;
 }
 
+.section-title {
+  font-size: 18px;
+  padding: 10px 0;
+}
+
 .about-img {
   width: 100%;
 }
