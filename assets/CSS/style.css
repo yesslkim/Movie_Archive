@@ -22,7 +22,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #eccfd6;
+  background-color: #f3c6bd;
   clip-path: circle(20px at calc(100% - 35px) 30px);
   transition: all 0.3s ease-out;
 }
@@ -47,7 +47,7 @@
   height: 40px;
   padding: 10px;
   border-radius: 50%;
-  background-color: #eccfd6;
+  background-color: #f3c6bd;
   z-index: 5;
 }
 
@@ -94,6 +94,10 @@
   padding: 10px 0;
 }
 
+.section-img {
+  width: 100%;
+}
+
 /* main : about -section  */
 .about-img {
   width: 100%;
@@ -108,10 +112,5 @@
   display: inline-block;
   padding: 5px 10px;
   border-radius: 5px;
-  background-color: #eccfd6;
-}
-
-/* main : tutorial -section  */
-.tutorial-img {
-  width: 100%;
+  background-color: #f3c6bd;
 }
