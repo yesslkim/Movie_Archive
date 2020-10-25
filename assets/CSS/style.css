@@ -109,3 +109,13 @@
   border-radius: 5px;
   background-color: #f3c6bd;
 }
+
+/* footer  */
+.footer {
+  padding: 20px 0 30px;
+}
+
+.footer-copy {
+  font-size: 13px;
+  text-align: center;
+}
