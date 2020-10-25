@@ -64,7 +64,7 @@
   padding: 5px 10px;
   margin: 0 auto;
   color: #fff;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 800;
   text-align: center;
   transition: color 0.3s linear;
@@ -72,4 +72,29 @@
 
 .gnb-list a:hover {
   color: #413b3c;
+}
+
+/* main  */
+.main {
+  padding: 0 5px;
+}
+
+.about {
+  padding: 0 10px;
+}
+
+.about-img {
+  width: 100%;
+}
+
+.about-desc {
+  padding: 20px 0;
+  font-size: 16px;
+}
+
+.about-link {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #eccfd6;
 }
