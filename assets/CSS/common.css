@@ -36,7 +36,7 @@ q::after {
   font-family: 'UhBeeSeulvely', sans-serif;
 }
 
-/* common  */
+/* common - icon */
 .ico-normal::before {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;

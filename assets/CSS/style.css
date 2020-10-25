@@ -1,4 +1,4 @@
-/* header  */
+/* COMMON LAYOUT - HEADER  */
 .header {
   position: fixed;
   left: 0;
@@ -9,6 +9,7 @@
   align-items: center;
   padding: 10px 15px;
   background-color: #fff;
+  box-shadow: 1px 1px 10px #ddd;
 }
 
 .title {
@@ -79,9 +80,13 @@
   color: #413b3c;
 }
 
-/* main  */
+/* COMMON LAYOUT - MAIN  */
 .main {
   padding: 60px 5px 0;
+}
+
+.main.hidden {
+  display: none;
 }
 
 .section-common {
@@ -110,7 +115,7 @@
   background-color: #f3c6bd;
 }
 
-/* footer  */
+/* COMMON LAYOUT - FOOTER  */
 .footer {
   padding: 20px 0 30px;
 }
@@ -118,4 +123,15 @@
 .footer-copy {
   font-size: 13px;
   text-align: center;
+}
+
+/*********************
+** MOVIE INFO PAGE  **
+*********************/
+
+/* movies section */
+.movie-img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
 }
